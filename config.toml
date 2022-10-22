@@ -9,16 +9,18 @@ theme = "hyde"
 paginate = 10
 paginatePath = "page"
 
+## 侧边栏导航
 [Menus]
   main = [
-      {Name = "Github", URL = "https://github.com/toast/"},
+      {Name = "Github", URL = "https://github.com/zntoast"},
       #{Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
   ]
 
 [params]
   description = "个人博客"
   themeColor = "theme-base-0d" 
-  layoutReverse = true
+  #侧边栏为true(右边)
+  layoutReverse = false
 
 ## 保持分类的原始名字（false会做转小写处理）
 #preserveTaxonomyNames = true
