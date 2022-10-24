@@ -6,7 +6,7 @@ theme = "hyde"
 
 
 ## 分页
-paginate = 10
+paginate = 5 
 paginatePath = "page"
 
 ## 侧边栏导航
